@@ -33,7 +33,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "main";
+            display-name = "MIC'S";
 
             // --------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
