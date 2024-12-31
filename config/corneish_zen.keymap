@@ -61,7 +61,7 @@
 &kp GRAVE          &kp N1           &kp N2           &kp N3           &kp N4           &kp N5             &kp N6           &kp N7           &kp N8           &kp N9           &kp N0   &kp BSPC
 &kp C_VOLUME_UP    &kp F1           &kp F2           &kp F3           &kp F4           &kp F5             &kp F6           &kp F7           &kp F8           &kp F9           &kp F10  &kp F11
 &kp C_VOLUME_DOWN  &rgb_ug RGB_TOG  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI    &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END  &kp F12
-                                                     &kp LG(LS(S))    &trans           &kp LEFT_WIN       &kp PRINTSCREEN  &trans           &reset
+                                                     &kp LG(LS(S))    &trans           &kp LEFT_WIN       &kp PRINTSCREEN  &trans           &trans
             >;
         };
 
@@ -75,9 +75,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &kp NUMBER_6  &kp N7    &kp N8                         &kp N9                 &kp N0    &kp DELETE
-&bt BT_CLR_ALL  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6        &kp F7    &kp F8                         &kp F9                 &kp F10   &kp F11
-&trans          &out OUT_USB  &out OUT_BLE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &kp UNDER     &kp PLUS  &kp EQUAL                      &kp RIGHT_PARENTHESIS  &kp PIPE  &kp F12
+&kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &kp NUMBER_6  &kp N7    &kp N8                         &kp N9     &kp N0                 &kp DELETE
+&bt BT_CLR_ALL  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6        &kp F7    &kp F8                         &kp F9     &kp F10                &kp F11
+&trans          &out OUT_USB  &out OUT_BLE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &kp MINUS     &kp PLUS  &kp PIPE                       &kp EQUAL  &kp RIGHT_PARENTHESIS  &kp F12
                                             &bt BT_SEL 3  &trans        &kp LEFT_WIN    &kp RET       &trans    &rgb_ug RGB_COLOR_HSB(48,0,0)
             >;
         };
